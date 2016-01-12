@@ -1,0 +1,44 @@
+-
+  var pages = {
+    'Home': '/',
+    'Teams': '/teams',
+    'Standings': '/standings',
+    'Matches': '/matches',
+    'Join': '/join',
+    'About': '/about',
+    'Rules': '/rules'
+  }
+
+  var teams = {
+    'TeamGreenPro': '/teams/teamgreenpro',
+    'Team Eclipse': '/teams/team_eclipse',
+    'TechnicCS': '/teams/techniccs',
+    'FuelUnitsEsports': '/teams/fuelunitsesports',
+    '4subs and David': '/teams/4subs_and_david',
+    'Swol Squad 6': '/teams/swol_squad_6',
+    'AuraGaming': '/teams/auragaming',
+    'Ignite Gaming': '/teams/ignite_gaming'
+  }
+
+nav.navbar.navbar-default.navbar-fixed-top(role='navigation')
+  div.container
+    //- Brand and mobile toggle
+    div.navbar-header
+      button.navbar-toggle.collapsed(type='button' data-toggle='collapse' data-target='.collapse')
+        span.glyphicon.glyphicon-menu-hamburger
+      a.navbar-brand(href="/")
+        | Low Ranked Leagues
+    //- Collectthe nav links, forms, and other content for toggling
+    div.collapse.navbar-collapse
+      ul.nav.navbar-nav
+        each url, page in pages
+          if page === "Teams"
+            li.dropdown
+              a.dropdown-toggle.disabled(href="/teams" data-toggle="dropdown" role="button") Teams
+              ul.dropdown-menu
+                each url, team in teams
+                  li: a(href=url)= team
+          else if current_page === page
+            li.active: a(href=url)= page
+          else
+            li: a(href=url)= page

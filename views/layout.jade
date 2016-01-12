@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    block head
+      meta(http-equiv="X-UA-Compatible" content="IE=edge")
+      link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.min.css')
+      link(rel='stylesheet', href='/static/style.css')
+      script(type='text/javascript', src='/bower_components/jquery/dist/jquery.min.js')
+      script(type='text/javascript', src='/bower_components/bootstrap/dist/js/bootstrap.min.js')
+      
+    style.
+      body { padding-top: 80px }
+  body
+    block page
+      -var current_page = 'Home'
+
+    block title
+      title= current_page + " - LowRankedLeagues"
+
+    include header.jade
+
+    div.container
+      block contents
+        | Issue loading page.
+
+    include footer.jade

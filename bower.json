@@ -1,0 +1,12 @@
+{
+  "name": "league_site",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}

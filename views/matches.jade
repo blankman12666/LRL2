@@ -1,0 +1,260 @@
+extends layout.jade
+
+block page
+  -var current_page = 'Matches'
+
+block contents
+  ul.nav.nav-tabs.nav-justified
+    li: a(href="#week_1") Week 1
+    li: a(href="#week_2") Week 2
+    li: a(href="#week_3") Week 3
+    li: a(href="#week_4") Week 4
+    li: a(href="#week_5") Week 5
+    li: a(href="#week_6") Week 6
+    li: a(href="#week_7") Week 7
+  div.container.panel.panel-default.text-center
+    div#week_1
+      div.row
+        h2.col-sm-12 Week 1
+          small.col-sm-12 01/07 8pm PST
+      div.row
+        div.col-sm-3
+        img.col-sm-2(src="/static/images/dust2.png")
+        img.col-sm-2(src="/static/images/inferno.png")
+        img.col-sm-2(src="/static/images/mirage.png")
+        div.col-sm-3
+      div.row
+        div.col-sm-4
+        h3.col-sm-1 Home
+        div.col-sm-2
+        h3.col-sm-1 Away
+        div.col-sm-4
+      div.row
+        h3.col-sm-4.text-right #[a(href="/teams/teamgreenpro") TeamGreenPro]
+        h3.col-sm-1.text-danger 5
+        img.col-sm-2.media.media-object(src="/static/images/mirage.png")
+        h3.col-sm-1.text-success 16
+        h3.col-sm-4.text-left #[a(href="/teams/team_eclipse") Team Eclipse]
+      div.row
+        h3.col-sm-4.text-right  #[a(href="/teams/swol_squad_6") Swol Squad 6]
+        h3.col-sm-1.text-success 16
+        img.col-sm-2.media.media-object(src="/static/images/dust2.png")
+        h3.col-sm-1.text-danger 1
+        h3.col-sm-4.text-left  #[a(href="/teams/4subs_and_david") 4subs and David]
+      div.row
+        h3.col-sm-4.text-right  #[a(href="/teams/fuelunitsesports") FuelUnitsEsports]
+        h3.col-sm-1.text-success 16
+        img.col-sm-2.media.media-object(src="/static/images/mirage.png")
+        h3.col-sm-1.text-danger 5
+        h3.col-sm-4.text-left  #[a(href="/teams/techniccs") TechnicCs]
+      div.row
+        h3.col-sm-4.text-right  #[a(href="/teams/auragaming") AuraGaming]
+        h3.col-sm-1 
+        h3.col-sm-2 vs
+        h3.col-sm-1 
+        h3.col-sm-4.text-left  #[a(href="/teams/ignite_gaming") iGniTe Gaming]
+    
+    hr
+    h1 Coming Up
+    div#week_2
+      div.row
+        h2.col-sm-12 Week 2
+          small.col-sm-12 01/14 8pm PST
+      div.row
+        div.col-sm-3
+        img.col-sm-2(src="/static/images/cache.png")
+        img.col-sm-2(src="/static/images/cobble.png")
+        img.col-sm-2(src="/static/images/overpass.png")
+        div.col-sm-3
+      div.row
+        div.col-sm-4
+        h3.col-sm-1 Home
+        div.col-sm-2
+        h3.col-sm-1 Away
+        div.col-sm-4
+      div.row
+        h3.col-sm-5.text-right  #[a(href="/teams/4subs_and_david") 4subs and David]
+        h3.col-sm-2 vs
+        h3.col-sm-5.text-left #[a(href="/teams/teamgreenpro") TeamGreenPro]
+      div.row
+        h3.col-sm-5.text-right #[a(href="/teams/team_eclipse") Team Eclipse]
+        h3.col-sm-2 vs
+        h3.col-sm-5.text-left  #[a(href="/teams/techniccs") TechnicCs]
+      div.row
+        h3.col-sm-5.text-right  #[a(href="/teams/swol_squad_6") Swol Squad 6]
+        h3.col-sm-2 vs
+        h3.col-sm-5.text-left  #[a(href="/teams/ignite_gaming") iGniTe Gaming]
+      div.row
+        h3.col-sm-5.text-right  #[a(href="/teams/fuelunitsesports") FuelUnitsEsports] 
+        h3.col-sm-2 vs
+        h3.col-sm-5.text-left  #[a(href="/teams/auragaming") AuraGaming]
+    
+    div#week_3
+      div.row
+        h2.col-sm-12 Week 3
+          small.col-sm-12 01/21 8pm PST 
+      div.row
+        div.col-sm-3
+        img.col-sm-2(src="/static/images/train.png")
+        img.col-sm-2(src="/static/images/dust2.png")
+        img.col-sm-2(src="/static/images/cobble.png")
+        div.col-sm-3
+      div.row
+        div.col-sm-4
+        h3.col-sm-1 Home
+        div.col-sm-2
+        h3.col-sm-1 Away
+        div.col-sm-4
+      div.row
+        h3.col-sm-5.text-right #[a(href="/teams/teamgreenpro") TeamGreenPro]
+        h3.col-sm-2 vs
+        h3.col-sm-5.text-left  #[a(href="/teams/techniccs") TechnicCs]
+      div.row
+        h3.col-sm-5.text-right  #[a(href="/teams/4subs_and_david") 4subs and David]
+        h3.col-sm-2 vs
+        h3.col-sm-5.text-left  #[a(href="/teams/ignite_gaming") iGniTe Gaming]
+      div.row
+        h3.col-sm-5.text-right #[a(href="/teams/team_eclipse") Team Eclipse]
+        h3.col-sm-2 vs
+        h3.col-sm-5.text-left  #[a(href="/teams/auragaming") AuraGaming]
+      div.row
+        h3.col-sm-5.text-right  #[a(href="/teams/swol_squad_6") Swol Squad 6]
+        h3.col-sm-2 vs
+        h3.col-sm-5.text-left  #[a(href="/teams/fuelunitsesports") FuelUnitsEsports]
+
+    div#week_4
+      div.row
+        h2.col-sm-12 Week 4
+          small.col-sm-12 01/28 8pm PST 
+      div.row
+        div.col-sm-3
+        img.col-sm-2(src="/static/images/inferno.png")
+        img.col-sm-2(src="/static/images/train.png")
+        img.col-sm-2(src="/static/images/overpass.png")
+        div.col-sm-3
+      div.row
+        div.col-sm-4
+        h3.col-sm-1 Home
+        div.col-sm-2
+        h3.col-sm-1 Away
+        div.col-sm-4
+      div.row
+        h3.col-sm-5.text-right  #[a(href="/teams/ignite_gaming") iGniTe Gaming]
+        h3.col-sm-2 vs
+        h3.col-sm-5.text-left #[a(href="/teams/teamgreenpro") TeamGreenPro]
+      div.row
+        h3.col-sm-5.text-right  #[a(href="/teams/techniccs") TechnicCs]
+        h3.col-sm-2 vs
+        h3.col-sm-5.text-left  #[a(href="/teams/auragaming") AuraGaming]
+      div.row
+        h3.col-sm-5.text-right  #[a(href="/teams/4subs_and_david") 4subs and David]
+        h3.col-sm-2 vs
+        h3.col-sm-5.text-left  #[a(href="/teams/fuelunitsesports") FuelUnitsEsports]
+      div.row
+        h3.col-sm-5.text-right #[a(href="/teams/team_eclipse") Team Eclipse]
+        h3.col-sm-2 vs
+        h3.col-sm-5.text-left  #[a(href="/teams/swol_squad_6") Swol Squad 6]
+
+    div#week_5
+      div.row
+        h2.col-sm-12 Week 5
+          small.col-sm-12 02/04 8pm PST 
+      div.row
+        div.col-sm-3
+        img.col-sm-2(src="/static/images/mirage.png")
+        img.col-sm-2(src="/static/images/cache.png")
+        img.col-sm-2(src="/static/images/dust2.png")
+        div.col-sm-3
+      div.row
+        div.col-sm-4
+        h3.col-sm-1 Home
+        div.col-sm-2
+        h3.col-sm-1 Away
+        div.col-sm-4
+      div.row
+        h3.col-sm-5.text-right #[a(href="/teams/teamgreenpro") TeamGreenPro]
+        h3.col-sm-2 vs
+        h3.col-sm-5.text-left  #[a(href="/teams/auragaming") AuraGaming]
+      div.row
+        h3.col-sm-5.text-right  #[a(href="/teams/ignite_gaming") iGniTe Gaming]
+        h3.col-sm-2 vs
+        h3.col-sm-5.text-left  #[a(href="/teams/fuelunitsesports") FuelUnitsEsports]
+      div.row
+        h3.col-sm-5.text-right  #[a(href="/teams/techniccs") TechnicCs]
+        h3.col-sm-2 vs
+        h3.col-sm-5.text-left  #[a(href="/teams/swol_squad_6") Swol Squad 6]
+      div.row
+        h3.col-sm-5.text-right  #[a(href="/teams/4subs_and_david") 4subs and David]
+        h3.col-sm-2 vs
+        h3.col-sm-5.text-left #[a(href="/teams/team_eclipse") Team Eclipse]
+
+    div#week_6
+      div.row
+        h2.col-sm-12 Week 6
+          small.col-sm-12 02/11 8pm PST 
+      div.row
+        div.col-sm-3
+        img.col-sm-2(src="/static/images/cache.png")
+        img.col-sm-2(src="/static/images/inferno.png")
+        img.col-sm-2(src="/static/images/mirage.png")
+        div.col-sm-3
+      div.row
+        div.col-sm-4
+        h3.col-sm-1 Home
+        div.col-sm-2
+        h3.col-sm-1 Away
+        div.col-sm-4
+      div.row
+        h3.col-sm-5.text-right  #[a(href="/teams/fuelunitsesports") FuelUnitsEsports]
+        h3.col-sm-2 vs
+        h3.col-sm-5.text-left #[a(href="/teams/teamgreenpro") TeamGreenPro]
+      div.row
+        h3.col-sm-5.text-right  #[a(href="/teams/auragaming") AuraGaming]
+        h3.col-sm-2 vs
+        h3.col-sm-5.text-left  #[a(href="/teams/swol_squad_6") Swol Squad 6]
+      div.row
+        h3.col-sm-5.text-right  #[a(href="/teams/ignite_gaming") iGniTe Gaming]
+        h3.col-sm-2 vs
+        h3.col-sm-5.text-left #[a(href="/teams/team_eclipse") Team Eclipse]
+      div.row
+        h3.col-sm-5.text-right  #[a(href="/teams/techniccs") TechnicCs]
+        h3.col-sm-2 vs
+        h3.col-sm-5.text-left  #[a(href="/teams/4subs_and_david") 4subs and David]
+
+    div#week_7
+      div.row
+        h2.col-sm-12 Week 7
+          small.col-sm-12 02/18 8pm PST 
+      div.row
+        div.col-sm-3
+        img.col-sm-2(src="/static/images/cobble.png")
+        img.col-sm-2(src="/static/images/overpass.png")
+        img.col-sm-2(src="/static/images/train.png")
+        div.col-sm-3
+      div.row
+        div.col-sm-4
+        h3.col-sm-1 Home
+        div.col-sm-2
+        h3.col-sm-1 Away
+        div.col-sm-4
+      div.row
+        h3.col-sm-5.text-right #[a(href="/teams/teamgreenpro") TeamGreenPro]
+        h3.col-sm-2 vs
+        h3.col-sm-5.text-left  #[a(href="/teams/swol_squad_6") Swol Squad 6]
+      div.row
+        h3.col-sm-5.text-right  #[a(href="/teams/fuelunitsesports") FuelUnitsEsports]
+        h3.col-sm-2 vs
+        h3.col-sm-5.text-left #[a(href="/teams/team_eclipse") Team Eclipse]
+      div.row
+        h3.col-sm-5.text-right  #[a(href="/teams/auragaming") AuraGaming]
+        h3.col-sm-2 vs
+        h3.col-sm-5.text-left  #[a(href="/teams/4subs_and_david") 4subs and David]
+      div.row
+        h3.col-sm-5.text-right  #[a(href="/teams/ignite_gaming") iGniTe Gaming]
+        h3.col-sm-2 vs
+        h3.col-sm-5.text-left  #[a(href="/teams/techniccs") TechnicCs]
+
+    hr
+    div#playoffs
+      h2 Playoffs
+      h3: small Playoffs will be determined at the end of the season.
