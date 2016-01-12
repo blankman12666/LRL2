@@ -7,7 +7,7 @@ router.param(':team_name', function(req, res, next, team_name) {
 
 /* GET /teams/:team_name - shows team page */
 router.get('/teams/:team_name', function(req, res) {
-  res.render('teams/' + team_name);
+  res.render('teams/' + req.team_name);
 });
 
 module.exports = router;
