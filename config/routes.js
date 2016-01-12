@@ -3,6 +3,7 @@ var join = require('path').join;
 
 module.exports = function(app) {
   app.use(require(join(routePath, 'pages')));
+  app.use(require(join(routePath, 'teams')));
 
   /**
    * Error Handling
