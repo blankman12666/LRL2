@@ -4,3 +4,5 @@ var router = require('express').Router();
 router.get('/teams/:team_name', function(req, res) {
   res.render('teams/' + team_name);
 });
+
+module.exports = router;
