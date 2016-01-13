@@ -7274,7 +7274,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   height: 63px;
 }
 
-.matchlogo:hover
+.matchlogo:hover {
   content: "Download now";
   text-align: center;
   padding: 20px 0;
