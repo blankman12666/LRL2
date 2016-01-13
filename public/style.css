@@ -7267,3 +7267,34 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;
   }
 }
+
+.matchlogo {
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 63px;
+}
+
+.mirage {
+  background-image: url("/static/images/mirage.png");
+}
+.dust2 {
+  background-image: url("/static/images/dust2.png");
+}
+.inferno {
+  background-image: url("/static/images/inferno.png");
+}
+.cobble {
+  background-image: url("/static/images/cobble.png");
+}
+.nuke {
+  background-image: url("/static/images/nuke.png");
+}
+.train {
+  background-image: url("/static/images/train.png");
+}
+.cache {
+  background-image: url("/static/images/cache.png");
+}
+.overpass {
+  background-image: url("/static/images/overpass.png");
+}
