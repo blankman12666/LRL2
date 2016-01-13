@@ -7274,6 +7274,14 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   height: 63px;
 }
 
+.matchlogo:hover
+  content: "Download now";
+  text-align: center;
+  padding: 20px 0;
+  background-image: none;
+  background-color: slategray;
+}
+
 .mirage {
   background-image: url("/static/images/mirage.png");
 }
