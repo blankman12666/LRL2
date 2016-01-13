@@ -7275,11 +7275,14 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 .matchlogo:hover {
-  content: "Download now";
   text-align: center;
   padding: 20px 0;
   background-image: none;
   background-color: slategray;
+}
+
+.matchlogo:hover:after {
+  content: "Download now";
 }
 
 .mirage {
