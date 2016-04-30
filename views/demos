@@ -1,1 +1,9 @@
+extends layout.jade
 
+block page
+  -var current_page = 'Demos'
+
+block contents
+  div.container.panel.panel-default
+    h1 This is where you can find old demos.
+    p1
