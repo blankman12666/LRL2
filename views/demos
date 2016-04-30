@@ -6,4 +6,4 @@ block page
 block contents
   div.container.panel.panel-default
     h1 This is where you can find old demos.
-    p1
+    p1 Demos are listed here.
