@@ -35,4 +35,9 @@ router.get('/rules', function(req, res) {
   res.render('rules');
 });
 
+/* GET /demos - show demos */
+router.get('/demos', function(req, res) {
+  res.render('demos');
+});
+
 module.exports = router;
